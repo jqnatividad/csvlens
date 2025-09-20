@@ -9,8 +9,8 @@ use clap::ArgGroup;
 use clap::ValueEnum;
 #[cfg(feature = "cli")]
 use clap::{Parser, command};
-use crossterm::execute;
-use crossterm::terminal::{
+use ratatui::crossterm::execute;
+use ratatui::crossterm::terminal::{
     EnterAlternateScreen, LeaveAlternateScreen, disable_raw_mode, enable_raw_mode,
 };
 use ratatui::Terminal;
