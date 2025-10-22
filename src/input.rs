@@ -2,7 +2,7 @@ use crate::app::WrapMode;
 use crate::common::InputMode;
 use crate::history::BufferHistoryContainer;
 use crate::util::events::{CsvlensEvent, CsvlensEvents};
-use ratatui::crossterm::event::{Event, KeyCode, KeyEvent, KeyModifiers};
+use crossterm::event::{Event, KeyCode, KeyEvent, KeyModifiers};
 use tui_input::Input;
 use tui_input::backend::crossterm::EventHandler;
 

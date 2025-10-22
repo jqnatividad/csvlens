@@ -1,6 +1,6 @@
 use std::time::{Duration, Instant};
 
-use ratatui::crossterm::event::{Event, KeyEvent, KeyEventKind, poll, read};
+use crossterm::event::{Event, KeyEvent, KeyEventKind, poll, read};
 
 pub enum CsvlensEvent<I> {
     Input(I),
