@@ -84,7 +84,7 @@ impl BufferHistoryContainer {
     }
 
     pub fn reset_cursors(&mut self) {
-        for (_, history) in self.inner.iter_mut() {
+        for history in self.inner.values_mut() {
             history.reset_cursor();
         }
     }

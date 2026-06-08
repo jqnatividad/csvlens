@@ -221,7 +221,7 @@ impl CsvLensReader {
                 order_index: x.0,
             })
             .collect::<Vec<_>>();
-        get_row_indices.sort_by(|a, b| a.record_index.cmp(&b.record_index));
+        get_row_indices.sort_by_key(|a| a.record_index);
         self._get_rows_impl_sorted(&get_row_indices)
     }
 
