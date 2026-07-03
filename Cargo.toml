@@ -9,7 +9,7 @@ homepage = "https://github.com/YS-L/csvlens"
 repository = "https://github.com/YS-L/csvlens"
 keywords = ["cli", "csv", "viewer", "pager", "tui"]
 edition = "2024"
-rust-version = "1.96"
+rust-version = "1.88"
 default-run = "csvlens"
 include = [
     "src/**",
